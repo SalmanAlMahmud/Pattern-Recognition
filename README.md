@@ -128,38 +128,6 @@ Grad-CAM is used to visualize the image regions that contribute to the model's p
 
 The explainability analysis helps determine whether the model focuses on relevant plant and disease regions or is influenced by irrelevant background information.
 
-## 📁 Project Structure
-
-```text
-Plant-Disease-Detection/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── src/
-│   ├── config.py
-│   ├── dataset.py
-│   ├── preprocessing.py
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── robustness.py
-│   ├── tta.py
-│   └── gradcam.py
-│
-├── notebooks/
-│   └── improved_pipeline.ipynb
-│
-├── results/
-│   ├── confusion_matrix.png
-│   ├── classification_report.csv
-│   ├── cross_dataset_results.csv
-│   └── robustness_results.csv
-│
-└── explainability/
-    └── gradcam_examples/
-```
-
 ## 💻 Installation
 
 ```bash
